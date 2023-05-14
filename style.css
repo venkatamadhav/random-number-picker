@@ -1,0 +1,47 @@
+body {
+  color: #a0cec0;
+  font-size: 24px;
+  text-align: center;
+  /* height: 100vh;
+  width: 100vw; */
+  background-image: url("nick-hillier-yD5rv8_WzxA-unsplash.jpg");
+}
+h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+label {
+  margin-bottom: 10px;
+}
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+button {
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #ffffff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+#output {
+  font-size: 48px;
+  font-weight: bold;
+  color: #6ac47e;
+}
